@@ -1,0 +1,14 @@
+Step 1 : Git clone the libraries
+Step 2 : Import the SQL
+Step 3 : Go to environment file and setup the sql connection
+Step 4 : Open CMD window
+Step 5 : Run below commands
+
+php artisan config:cache
+php artisan cache:clear
+php artisan route:clear
+php artisan view:clear
+
+Step 6: after running above commands, start the server using below command
+
+php artisan serve
